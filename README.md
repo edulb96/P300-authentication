@@ -72,12 +72,10 @@ Optional arguments:
 | -dim --dim 	       |	\[1920,1080]           |Size Monitor
 | -dm --distmon 	       |	67           |Distance to the monitor (cm)
 | -m --mode 	       |	2           |Program execution mode
-| -i --images 	       |	30           |Number of different images used in the experiment
-| -p --prob 	       |	0.1           |Probability of appearance of the target in the experiment (per unit)
+| -i --images 	       |	200           |Number of different images used in the experiment
+| -ph --photos 	       |	30           |Number of images to download in each iteration
 | -tt 	       |	5           | Target display time (seconds)
-| -in 	       |	0.250           |Elapsed time between images (seconds)
-| -io 	       |	0.150           |Offset time of each image (seconds)
-| -j 	       |	0.2           |Variable jitter time when displaying image (seconds)
+| -io 	       |	1           |Offset time of each image (seconds)
 | -v --version 	       |	           |Version of the program
 | -a --about 	       |	           |Program developer information
 | -h --help 	       |	           |Help on using the program
