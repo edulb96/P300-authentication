@@ -9,9 +9,7 @@
 
 ## About the framework
 
-<br>
 Implementation of a framework for EEG signal acquisition from a BCI, signal processing, and P300-based authentication using trained classifiers. Besides, it deploys a scenario where P300 evoked potentials are generated through the Oddball paradigm and visual stimuli.
-<br>
 
 This repository contains a related code for the paper Evaluation of Data Processing and Machine Learning Techniques in P300-based Authentication using Brain-Computer Interfaces.
 
