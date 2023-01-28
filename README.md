@@ -86,5 +86,17 @@ Optional arguments:
 
 ## Processing, feature extraction, datasets, generation and classification phases
 
-In this directory you will find everything you need to carry out the remaining phases of the BCI life cycle. The ```data``` directory contains the data acquired by the BCI in the acquisition phase. 
+In this directory you will find everything you need to carry out the remaining phases of the BCI life cycle. The ```data``` directory contains the data acquired by the BCI in the acquisition phase. The ```analysis_tools.py``` file contains the necessary code to convert the data acquired in the acquisition phase into RawData in order to apply the different processing techniques.
 
+The evaluation of the performance of the framework has been carried out through two different experiments, testing for each of them three different  configurations of processing and classification techniques based on the EEG data acquired by the framework. The first experiment evaluates a binary Machine Learning (ML) classification approach, while the second focuses on a ML multiclass perspective. Regarding the testing configurations, the first one uses the Notch and Butterworth filters, performing the classification using epochs. In contrast, the second considers adding ICA to the processes defined by the first configuration. Finally, the third configuration is cumulative to the previous two. It uses ML classification through statistical values extracted from the epochs using four window sizes, 58, 116, 174, and 232.
+
+In this directory, you can find a notebook for each configuration created in each of the two experiments. For the third configuration of both experiments, a notebook has been created for each window size. The name of each notebook indicates which experiment and configuration it refers to.
+
+## Tools
+
+* [OpenBCI Cyton](https://openbci.com/) - EEG Recording
+* [Python](https://www.python.org/) - Python and the libraries for the creation of the experiment and EEG signal synchronization
+
+## Roadmap
+
+See the [open issues](https://github.com/edulb96/P300-authentication/issues) for a list of proposed features (as well as known issues).
