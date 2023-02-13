@@ -90,7 +90,7 @@ In this directory, you can find a notebook for each configuration created in eac
 
 ## Tools
 
-* [OpenBCI Cyton](https://openbci.com/) - EEG Recording
+* [Bitbrain Versatile eeg](https://www.bitbrain.com/neurotechnology-products/semi-dry-eeg/versatile-eeg) - EEG Recording
 * [Python](https://www.python.org/) - Python and the libraries for the creation of the experiment and EEG signal synchronization
 
 ## Roadmap
