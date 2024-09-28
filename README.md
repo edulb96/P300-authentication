@@ -81,7 +81,7 @@ Optional arguments:
 | -a --about 	       |	           |Program developer information
 | -h --help 	       |	           |Help on using the program
 
-## Processing, feature extraction, datasets, generation and classification phases
+## Processing, feature extraction, datasets generation and classification directory
 
 In this directory you will find everything you need to carry out the remaining phases of the BCI life cycle. The ```data``` directory contains the data acquired by the BCI in the acquisition phase. The ```analysis_tools.py``` file contains the necessary code to convert the data acquired in the acquisition phase into RawData in order to apply the different processing techniques.
 
