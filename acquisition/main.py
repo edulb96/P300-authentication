@@ -90,15 +90,15 @@ def main():
 
     diccionary = {}
 
-    if(os.path.isfile('urls_Marivi.txt')):
-        with open('urls_Marivi.txt') as f:
+    if(os.path.isfile('urls_user.txt')):
+        with open('urls_user.txt') as f:
             for line in f:
                 line = line[0:11]
                 diccionary[line] = 1
 
     try:
 
-        experiment = "Marivi_15"
+        experiment = "user_01"
 
         if not os.path.isdir('experiments/' + experiment):
             os.makedirs("experiments/{}/target".format(experiment))
@@ -143,7 +143,7 @@ def main():
                         else:
                             diccionary[identification] = 1
 
-                            with open('urls_Marivi.txt', 'a+') as f:
+                            with open('urls_user.txt', 'a+') as f:
                                 f.write(identification + '\n')
 
                             response = requests.get(url + '&fm=jpg&fit=crop&w=1920&h=1080&q=80&fit=max', headers=headers,
@@ -179,7 +179,7 @@ def main():
                         else:
                             diccionary[identification] = 1
 
-                            with open('urls_Marivi.txt', 'a+') as f:
+                            with open('urls_user.txt', 'a+') as f:
                                 f.write(identification + '\n')
 
                             response = requests.get(url + '&fm=jpg&fit=crop&w=1920&h=1080&q=80&fit=max', headers=headers,
